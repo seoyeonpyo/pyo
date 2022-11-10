@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showNumber(input.rotation(Rotation.Pitch))
+    basic.showNumber(input.rotation(Rotation.Roll))
 })
 input.onButtonPressed(Button.AB, function () {
     music.playSoundEffect(music.builtinSoundEffect(soundExpression.giggle), SoundExpressionPlayMode.UntilDone)
